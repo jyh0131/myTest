@@ -48,7 +48,10 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		System.out.println("branch test를 위한 code 추가");
+		
 		return "home";
 	}
+	
 	
 }
