@@ -28,6 +28,7 @@ public class MessageController {
 		logger.info("messages POST ........");
 		
 		ResponseEntity<String> entity = null;
+		//test1
 		
 		try {
 			service.addMessage(vo);
